@@ -1,6 +1,6 @@
 import "./Article.css";
-import About from "./components/About";
-import Goal from "./components/Goal";
+import About from "./About";
+import Goal from "./Goal";
 
 const Article = () => {
   return (
