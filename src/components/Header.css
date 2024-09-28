@@ -1,0 +1,19 @@
+.Header {
+  margin: 0 auto; /* 가운데 정렬 */
+  display: flex;
+  justify-content: space-between;
+  color: rgb(55, 89, 226);
+  width: auto;
+  height: 50px;
+}
+
+.title {
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  /* justify-content: flex-end; */
+  padding-right: 20px;
+}
