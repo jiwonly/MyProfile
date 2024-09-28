@@ -2,8 +2,10 @@ import "./Goal.css";
 
 const Goal = () => {
   return (
-    <div className="Goal">
-      <h3>Goal</h3>
+    <div className="goal">
+      <div className="title_goal">
+        <h3>GOAL</h3>
+      </div>
     </div>
   );
 };

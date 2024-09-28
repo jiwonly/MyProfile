@@ -1,5 +1,11 @@
 .Hero {
-  background-color: rgb(55, 89, 226);
+  background-color: rgb(64, 98, 237);
   color: white;
   text-align: center;
+  height: 300px;
+  padding: 30px;
+}
+
+.Hero h3 {
+  line-height: 1.8rem;
 }
