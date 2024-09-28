@@ -4,7 +4,7 @@ import Goal from "./Goal";
 
 const Article = () => {
   return (
-    <div>
+    <div className="article">
       <About />
       <Goal />
     </div>

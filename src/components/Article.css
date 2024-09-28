@@ -1,0 +1,7 @@
+.article {
+  height: 1000px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
