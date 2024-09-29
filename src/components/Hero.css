@@ -3,9 +3,16 @@
   color: white;
   text-align: center;
   height: 350px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .Hero h3 {
   line-height: 1.8rem;
+}
+
+.Hero img {
+  display: block; /* 이미지를 블록 요소로 만들어서 중앙 정렬 가능 */
+  margin: 0 auto;
+  width: 200px;
+  height: auto; /* 비율 유지 */
 }

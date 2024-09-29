@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Article from "./components/Article";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div className="App">
