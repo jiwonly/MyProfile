@@ -1,14 +1,14 @@
-import "./Article.css";
+import "./Container.css";
 import About from "./About";
 import Goal from "./Goal";
 
-const Article = () => {
+const Container = () => {
   return (
-    <div className="article">
+    <div className="container">
       <About />
       <Goal />
     </div>
   );
 };
 
-export default Article;
+export default Container;

@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Article from "./components/Article";
 import Footer from "./components/Footer";
+import Container from "./components/Container";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <Article />
+      <Container />
       <Footer />
     </div>
   );
