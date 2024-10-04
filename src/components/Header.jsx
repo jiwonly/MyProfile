@@ -4,10 +4,10 @@ import { memo } from "react";
 const Header = () => {
   return (
     <div className="header">
-      <div className="title">
+      <div className="header_left">
         <h2>PORTFOLIO</h2>
       </div>
-      <div className="nav">
+      <div className="header_right">
         <a href="#">ABOUT</a>
         <a href="#">GOAL</a>
       </div>

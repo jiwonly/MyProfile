@@ -6,24 +6,26 @@
   color: rgb(64, 98, 237);
   /* width: auto; */
   height: 70px;
+  align-items: center;
+  /* 세로를 기준으로 가운데 정렬 */
+  padding: 0px 20px;
 
   position: sticky;
   top: 0;
 }
 
-.title {
-  padding: 16px 20px;
+.header .header_left {
 }
 
-.nav {
+.header .header_right {
   display: flex;
   /* justify-content: flex-end; */
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 
-.nav a {
+.header .header_right > a {
   text-decoration: none;
   text-align: center;
   color: rgb(64, 98, 237);
-  padding: 22px 15px;
+  padding: 0px 15px;
 }
