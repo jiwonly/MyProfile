@@ -37,6 +37,7 @@
 }
 
 .about_left > p {
+  font-size: 15px;
   line-height: 1;
   padding: 5px 0;
   text-align: left;
