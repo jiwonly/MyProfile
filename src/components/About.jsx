@@ -1,6 +1,6 @@
 import "./About.css";
 import AboutData from "./AboutData";
-import emoji1 from "../assets/emoji1.png";
+import emoji2 from "../assets/emoji2.png";
 
 const About = () => {
   return (
@@ -9,11 +9,11 @@ const About = () => {
         <h2>ABOUT</h2>
         <div className="about_content">
           <div className="about_left">
-            <img className="profile_img" src={emoji1} alt="profile" />
+            <img className="profile_img" src={emoji2} alt="profile" />
             <h4>JUN JI WON</h4>
-            <p>010-0000-5575</p>
-            <p>ysjjw2003@naver.com</p>
-            <p>Seoul</p>
+            <p>📞 010-0000-5575</p>
+            <p>📧 ysjjw2003@naver.com</p>
+            <p>📍 Seoul</p>
           </div>
           <div className="about_right">
             <AboutData
@@ -21,7 +21,7 @@ const About = () => {
               content={"성균관대학교 수학교육과 22학번"}
             />
             <AboutData title={"SKILLS"} content={"Frontend Dev"} />
-            <AboutData title={"WORK"} content={"TAVE"} />
+            <AboutData title={"WORK"} content={<div>TAVE, Skudding</div>} />
             <AboutData title={"PROJECTS"} content={"Todolist, Emotion Diary"} />
           </div>
         </div>
