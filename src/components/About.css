@@ -1,5 +1,47 @@
 .about {
   background-color: #c4d6ee;
   padding: 30px;
-  height: 400px;
+  height: 500px;
+}
+
+.about_title {
+  align-items: center;
+  text-align: center;
+}
+
+.about_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.about_left {
+  flex: 1;
+  max-width: 250px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.about_left p {
+  line-height: 1;
+  margin: 5px 0;
+}
+
+.profile_img {
+  width: 150px;
+  height: auto;
+  padding: 15px 0px;
+}
+
+.about_right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about_right p {
+  /* line-height: 1; */
+  margin: 5px 0;
 }

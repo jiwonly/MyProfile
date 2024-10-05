@@ -3,3 +3,13 @@
   padding: 30px;
   height: 400px;
 }
+
+.goal_title {
+  text-align: center;
+}
+
+.goal_list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
