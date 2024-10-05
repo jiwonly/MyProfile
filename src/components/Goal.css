@@ -1,7 +1,7 @@
 .goal {
   background-color: #c4d6ee;
   padding: 30px;
-  height: 400px;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -11,6 +11,8 @@
 
 .goal_list {
   display: flex;
+  flex-direction: row;
+  gap: 20px;
   justify-content: space-around;
   margin-top: 40px;
 }

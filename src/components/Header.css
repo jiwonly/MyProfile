@@ -17,6 +17,14 @@
 .header .header_left {
 }
 
+.header .header_left > a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(64, 98, 237);
+  padding: 0px 15px;
+}
+
 .header .header_right {
   display: flex;
   /* justify-content: flex-end; */

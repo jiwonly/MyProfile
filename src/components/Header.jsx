@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header_left">
-        <h2>PORTFOLIO</h2>
+        <a href="#home">PORTFOLIO</a>
       </div>
       <div className="header_right">
-        <a href="#">ABOUT</a>
-        <a href="#">GOAL</a>
+        <a href="#about">ABOUT</a>
+        <a href="#goal">GOAL</a>
       </div>
     </div>
   );

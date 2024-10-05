@@ -4,7 +4,7 @@ import emoji2 from "../assets/emoji2.png";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about_title">
         <h2>ABOUT</h2>
         <div className="about_content">
@@ -20,8 +20,13 @@ const About = () => {
               title={"EDUCATION"}
               content={"성균관대학교 수학교육과 22학번"}
             />
-            <AboutData title={"SKILLS"} content={"Frontend Dev"} />
-            <AboutData title={"WORK"} content={<div>TAVE, Skudding</div>} />
+            <AboutData
+              title={"SKILLS"}
+              content={
+                "Python, C, C++, Java, Javascript, HTML, CSS, React, Node.js, express.js"
+              }
+            />
+            <AboutData title={"WORK"} content={"TAVE, Skudding"} />
             <AboutData title={"PROJECTS"} content={"Todolist, Emotion Diary"} />
           </div>
         </div>
