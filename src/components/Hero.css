@@ -3,11 +3,12 @@
   color: white;
   text-align: center;
   height: 350px;
-  padding: 20px;
+  padding: 30px;
 }
 
-.Hero h3 {
+.Hero h2 {
   line-height: 1.8rem;
+  font-weight: 550;
 }
 
 .Hero img {

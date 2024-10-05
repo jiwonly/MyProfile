@@ -1,14 +1,18 @@
 .goalData {
   background-color: white;
   height: auto;
-  padding: 35px;
+  padding: 30px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
 .goalData > h4 {
+  text-align: center;
 }
 
 .goalData > p {
+  padding: 0px 20px;
+  text-align: left;
 }

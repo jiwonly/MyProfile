@@ -1,3 +1,7 @@
+@font-face {
+  font-family: paperlogy;
+  src: url(../public/Paperlogy-4Regular.ttf);
+}
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -15,6 +19,7 @@ body {
 }
 
 #root {
+  font-family: paperlogy;
   background-color: white;
   max-width: 1200px;
   width: 100%;
@@ -30,7 +35,15 @@ body {
     flex-direction: column;
   }
 
+  .about_content {
+    gap: 50px;
+  }
+
   .about_left {
     margin: 0 auto;
+  }
+
+  .about_right {
+    padding: 30px;
   }
 }

@@ -1,5 +1,5 @@
 import "./Container.css";
-import About from "./About";
+import About from "./About.jsx";
 import Goal from "./Goal";
 
 const Container = () => {
