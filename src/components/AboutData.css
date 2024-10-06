@@ -1,3 +1,7 @@
 .aboutData {
   color: rgb(47, 47, 155);
 }
+
+.aboutData .aboutData_content {
+  margin: 5px 0;
+}
