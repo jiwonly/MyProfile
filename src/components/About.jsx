@@ -11,9 +11,11 @@ const About = () => {
           <div className="about_left">
             <img className="profile_img" src={emoji2} alt="profile" />
             <h4>JUN JI WON</h4>
-            <p>📞 010-0000-5575</p>
-            <p>📧 ysjjw2003@naver.com</p>
-            <p>📍 Seoul</p>
+            <div className="about_left_info">
+              <p>📞 010-0000-5575</p>
+              <p>📧 ysjjw2003@naver.com</p>
+              <p>📍 Seoul</p>
+            </div>
           </div>
           <div className="about_right">
             <AboutData
