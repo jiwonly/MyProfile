@@ -16,10 +16,12 @@ html,
 body {
   background-color: #f1f1f1;
   width: 100%;
+  /* display: flex; */
 }
 
 #root {
   font-family: paperlogy;
+  /* 폰트 추가 */
   background-color: white;
   max-width: 1200px;
   width: 100%;
