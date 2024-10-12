@@ -1,2 +1,53 @@
 .contactData {
+  margin: 30px;
+  background-color: #c4d6ee;
+  padding: 40px 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.contact_info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact_form > button {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact_form > button:hover {
+  background-color: #2f3b8f;
+}
+
+.contact_form > #name {
+  padding: 7px;
+  width: auto;
+  max-width: 150px;
+}
+
+.contact_form > #email {
+  padding: 7px;
+  width: auto;
+  max-width: 400px;
+}
+
+.contact_form > textarea {
+  padding: 7px;
+  width: auto;
+  min-height: 100px;
+  resize: none; /* 사용자가 움직이지 않도록 */
 }

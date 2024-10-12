@@ -1,10 +1,12 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+
+  const nav = useNavigate();
 
   return (
     <div className="header">
@@ -14,8 +16,22 @@ const Header = () => {
         </Link>
       </div>
       <div className="header_right">
-        <a href="/#about">ABOUT</a>
-        <a href="/#goal">GOAL</a>
+        <a
+          onClick={() => {
+            nav("/");
+          }}
+          href="#about"
+        >
+          ABOUT
+        </a>
+        <a
+          onClick={() => {
+            nav("/");
+          }}
+          href="#goal"
+        >
+          GOAL
+        </a>
 
         <Link to="/contact">CONTACT</Link>
       </div>
