@@ -1,17 +1,17 @@
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
-import Container from "./components/Container";
-
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Notfound from "./pages/Notfound";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Container />
-      <Footer />
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Notfound />} />
+      </Routes>
     </div>
   );
 }
