@@ -20,6 +20,8 @@
 }
 
 .about_left {
+  text-align: center;
+
   flex: 35%;
   min-width: 260px;
   max-width: 350px;
