@@ -10,12 +10,15 @@ const onClickButton = (e) => {
 
   if (nameInput.value === "") {
     alert("이름을 입력해주세요.");
+    nameInput.focus();
     return;
   } else if (emailInput.value === "") {
     alert("이메일을 입력해주세요.");
+    emailInput.focus();
     return;
   } else if (messageInput.value === "") {
     alert("메시지를 입력해주세요.");
+    messageInput.focus();
     return;
   }
 
