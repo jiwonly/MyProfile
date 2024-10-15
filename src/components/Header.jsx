@@ -33,7 +33,9 @@ const Header = () => {
           GOAL
         </a>
 
-        <Link to="/contact">CONTACT</Link>
+        <Link to="/contact" onClick={scrollToTop}>
+          CONTACT
+        </Link>
       </div>
     </div>
   );
