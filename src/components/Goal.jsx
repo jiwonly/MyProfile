@@ -14,7 +14,6 @@ const Goal = () => {
             content={
               <ul>
                 <li>강의 다시 듣기</li>
-                <li>강의 다시 듣기</li>
               </ul>
             }
           />
