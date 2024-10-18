@@ -11,11 +11,7 @@ const Goal = () => {
           <GoalData title="Node.js 복습하기" content="자료 찾아보기" />
           <GoalData
             title="AWS 정복하기"
-            content={
-              <ul>
-                <li>강의 다시 듣기</li>
-              </ul>
-            }
+            content="강의 자료 찾아보기"       
           />
         </div>
       </div>
