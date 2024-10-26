@@ -27,13 +27,16 @@
 
 .header .header_right {
   display: flex;
-  /* justify-content: flex-end; */
-  /* padding-right: 20px; */
 }
 
-.header .header_right > a {
+.header .header_right > div > a {
   text-decoration: none;
   text-align: center;
   color: rgb(64, 98, 237);
-  padding: 0px 15px;
+  padding: 26px 15px;
+}
+
+.header .header_right > div > a:hover {
+  background-color: rgb(64, 98, 237);
+  color: white;
 }

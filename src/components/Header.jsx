@@ -16,26 +16,31 @@ const Header = () => {
         </Link>
       </div>
       <div className="header_right">
-        <a
-          onClick={() => {
-            nav("/");
-          }}
-          href="#about"
-        >
-          ABOUT
-        </a>
-        <a
-          onClick={() => {
-            nav("/");
-          }}
-          href="#goal"
-        >
-          GOAL
-        </a>
-
-        <Link to="/contact" onClick={scrollToTop}>
-          CONTACT
-        </Link>
+        <div className="header_right_about">
+          <a
+            onClick={() => {
+              nav("/");
+            }}
+            href="#about"
+          >
+            ABOUT
+          </a>
+        </div>
+        <div className="header_right_goal">
+          <a
+            onClick={() => {
+              nav("/");
+            }}
+            href="#goal"
+          >
+            GOAL
+          </a>
+        </div>
+        <div className="header_right_contact">
+          <Link to="/contact" onClick={scrollToTop}>
+            CONTACT
+          </Link>
+        </div>
       </div>
     </div>
   );
