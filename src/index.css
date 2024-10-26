@@ -37,6 +37,10 @@ body {
     flex-direction: column;
   }
 
+  .goalData{
+    padding: 20px;
+  }
+
   .about_content {
     gap: 50px;
   }
