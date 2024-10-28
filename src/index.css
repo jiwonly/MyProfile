@@ -31,7 +31,7 @@ body {
   box-shadow: rgba(100, 100, 100, 0.2) 0px 0px 29px 0px;
 }
 
-/* 미디어 쿼리 사용 - 780px 이하일 때 적용 */
+/* 미디어 쿼리 - 780px 이하일 때 적용 */
 /* 반응형 웹 구현 */
 @media screen and (max-width: 780px) {
   .goal_list,
