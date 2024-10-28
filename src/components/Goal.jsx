@@ -5,11 +5,14 @@ const Goal = () => {
   return (
     <div className="goal" id="goal">
       <div className="goal_title">
-        <h2>GOAL</h2>
+        <h2>WORK</h2>
         <div className="goal_list">
-          <GoalData title="React 익히기" content="강의 다시 듣기" />
-          <GoalData title="Node.js 익히기" content="자료 찾아보기" />
-          <GoalData title="AWS 익히기" content="자료 찾아보기" />
+          <GoalData
+            title="SAI"
+            content="데이터 분석 및 시각화"
+          />
+          <GoalData title="SKKUDING" content="infra 담당" />
+          <GoalData title="TAVE" content="Frontend 담당" />
         </div>
       </div>
     </div>

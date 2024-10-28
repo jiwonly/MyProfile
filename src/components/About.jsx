@@ -45,8 +45,8 @@ const About = () => {
               "Python, C, C++, Java, Javascript, HTML, CSS, React, Node.js, express.js"
             }
           />
-          <AboutData title={"WORK"} content={"TAVE, Skudding"} />
-          <AboutData title={"PROJECTS"} content={"Todolist, Emotion Diary"} />
+          <AboutData title={"CERTIFICATE"} content={"컴퓨터활용능력 1급"} />
+          <AboutData title={"HOBBY"} content={"퍼즐 맞추기, 노래 듣기"} />
         </div>
       </div>
     </div>

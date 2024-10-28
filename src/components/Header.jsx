@@ -33,7 +33,7 @@ const Header = () => {
             }}
             href="#goal"
           >
-            GOAL
+            WORK
           </a>
         </div>
         <div className="header_right_contact">
